@@ -27,22 +27,18 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/heart-disease-prediction.git
+    git clone https://github.com/HachemiIbrahim/heart-disease-prediction-project.git
     ```
 
 2. Navigate to the project folder:
     ```bash
-    cd heart-disease-prediction
+    cd heart-disease-prediction-project
     ```
 
-3. Install the required dependencies:
+3. Create a virtual environment and install the required dependencies from the `.yaml` file:
+
+    If you're using **conda**, run the following command:
     ```bash
-    pip install -r requirements.txt
+    conda env create -f environment.yaml
     ```
-
-## Usage
-
-Once the dependencies are installed, you can run the project script to train the logistic regression model:
-
-```bash
-python heart_disease_model.py
+    
